@@ -1,0 +1,55 @@
+{% load static %}
+
+<!-- ======= Header ======= -->
+  <header id="header" class="header">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="{% url 'index' %}" class="logo d-flex align-items-center">
+        <span><img src="{%static 'images/images/logo3.png' %}" alt="" style="width: 160px;"><img src="{%static 'images/images/ISACA_Licensed-CMMI-Premium-Partner_Logo-01.png' %}" style="width: 95px;" alt=""></span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="{% url 'index' %}">Home</a></li>
+          <li class="dropdown"><a a class="nav-link scrollto" href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="{% url 'cmmi' %}"><span>CMMI</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="{% url 'appraisals' %}" class="hover-underline-animation">Process Appraisals</a></li>
+                  <li><a href="{% url 'training' %}" class="hover-underline-animation">Training</a></li>
+                  <li><a href="{% url 'faq' %}" class="hover-underline-animation">FAQ</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="{% url 'iso' %}"><span>ISO</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                    <li><a href="{% url 'iso9001' %}" class="hover-underline-animation">ISO 9001 : 2015</a></li>
+                  <li><a href="{% url 'iso27001' %}" class="hover-underline-animation">ISO 27001 : 2013</a></li>
+                  <li><a href="{% url 'iso20000' %}" class="hover-underline-animation">ISO 20000 : 2018</a></li>
+                  <li><a href="{% url 'directory' %}" class="hover-underline-animation">Directory of ISO</a></li>
+                  <li><a href="{% url 'accrediatations' %}" class="hover-underline-animation">Our Accreditations</a></li>
+                </ul>
+              </li>
+              <!-- <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="provision.html">Provision</a></li>
+                  <li><a href="timetrack.html">Time Track</a></li>
+                  <li><a href="qtrack.html">Q Track</a></li>
+                  <li><a href="pal.html">PAL</a></li>
+                  <li><a href="metrics.html">Metrics Manager</a></li>
+                </ul>
+              </li>-->
+              <li class="dropdown"><a href="{% url 'ai' %}"><span>AI</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="{% url 'ai' %}" class="hover-underline-animation">Concept's AI & ML Lab</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <!--<li><a class="getstarted scrollto" href="#about">Logout</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->

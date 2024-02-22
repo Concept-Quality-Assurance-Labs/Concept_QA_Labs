@@ -1,0 +1,1215 @@
+{% extends 'main.html' %}
+
+{% load static %}
+
+{% block content %}
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-right">Welcome to<div style="padding-top: 15px;">Concept QA Labs</div></h1>
+          <h2 data-aos="fade-up" data-aos-delay="400"><div style="padding-top: 10px;padding-bottom: 10px;color: #283747;font-family: Arial, Helvetica, sans-serif;font-size: larger">( ISACA Licensed Premium CMMI Partner )</div>Concept Quality Assurance Labs(CQAL) is established in 2004 with an
+            objective of assisting world wide industry towards scaling to process excellence by proffessionals...</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center" style="border-radius: 19px;">
+                <span>Know More</span>
+                <i class="bi bi-arrow-down"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="fade-left" data-aos-delay="200">
+          <img src="{% static 'images/images/mind.png' %}" class="img-fluid" alt="hero-img">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-right" data-aos-delay="200">
+            <div class="content">
+              <h3>Who We Are&nbsp;&nbsp;<div class="spinner-grow spinner-grow-sm" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div></h3><br>
+              <h2>CQAL is engaged by global industries for state of art services in the areas of Capability Maturity Model Integrated(CMMI), International Standards Organizations(ISO).</h2>
+              <p>CQAL is also assisting companies by providing trainings and appraisal services in CMMI, ISO and other Quality Standard Models.</p>
+              <div class="text-center text-lg-start">
+                <a href="{% url 'Knowmore' %}" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center" style="border-radius: 19px;">
+                  <span>Read More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="200">
+            <img src="{% static 'images/images/about.jpg' %}" class="img-fluid" alt="about">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+        <!-- ======= clients Section ======= -->
+        <section id="clients" class="clients">
+
+          <div class="container" data-aos="fade-up">
+    
+            <header class="section-header">
+              <h2>CQAL is trusted by 200+ clients</h2>
+              <p>Our treasurable clients</p><br>
+              <!--<h3><a href="clientslist.html">See a list of our clients by clicking here</a></h3> -->
+            </header>
+    
+            <div class="clients-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide"><img src="{% static 'images/clients/acuity.png' %}" class="img-fluid" alt="Capgemini"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/adaequare.png' %}" class="img-fluid" alt="Congruent"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/adp.png' %}" class="img-fluid" alt="fpt" title="fpt"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ains.png' %}" class="img-fluid" alt="Bombardier"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/altura.png' %}" class="img-fluid" alt="infotech"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/americansolutions.png' %}" class="img-fluid" alt="picture"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/americansystems.png' %}" class="img-fluid" alt="adp_logo"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ampcus.png' %}" class="img-fluid" alt="calnet"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/appereon.png' %}" class="img-fluid" alt="intel"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/apps.png' %}" class="img-fluid" alt="edaran"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/arrk.png' %}" class="img-fluid" alt="mobis"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/azeus.png' %}" class="img-fluid" alt="Broadridge"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/bhrigus.png' %}" class="img-fluid" alt="diamond"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/bluefrog.png' %}" class="img-fluid" alt="drivestream"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/bombardier.png' %}" class="img-fluid" alt="eis"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/brillient.png' %}" class="img-fluid" alt="idhasoft"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/broadridge.png' %}" class="img-fluid" alt="ntrust"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/calnet.png' %}" class="img-fluid" alt="ntrust"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/capgemini.png' %}" class="img-fluid" alt="yash"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/case.png' %}" class="img-fluid" alt="evoke"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/catalyst.png' %}" class="img-fluid" alt="erpanalysts"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/cct.png' %}" class="img-fluid" alt="itcinfotech"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/cgs.png' %}" class="img-fluid" alt="kaar"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/cmg.png' %}" class="img-fluid" alt="lgs"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/congruent.png' %}" class="img-fluid" alt="liquidhub"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/crimson.png' %}" class="img-fluid" alt="harmonia"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/cst.png' %}" class="img-fluid" alt="hyundai"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ct.png' %}" class="img-fluid" alt="i2technologies"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/cyberdata.png' %}" class="img-fluid" alt="iconma"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/deloitte.png' %}" class="img-fluid" alt="ics"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/diamond.png' %}" class="img-fluid" alt="cs"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/drivestream.png' %}" class="img-fluid" alt="ct"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/dsg.png' %}" class="img-fluid" alt="deloitte"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ecentric.png' %}" class="img-fluid" alt="gss"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/eclipse.png' %}" class="img-fluid" alt="ifca"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/edaran.png' %}" class="img-fluid" alt="nissan"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/eis.png' %}" class="img-fluid" alt="Brillient"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/erp.png' %}" class="img-fluid" alt="bluefrog"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/evoke.png' %}" class="img-fluid" alt="apps"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/extol.png' %}" class="img-fluid" alt="americansystems"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/fcs.png' %}" class="img-fluid" alt="ains"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/fmi.png' %}" class="img-fluid" alt="sbi"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/fpt.png' %}" class="img-fluid" alt="reliance"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/fusionex.png' %}" class="img-fluid" alt="crimson"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/genpact.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/gss.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/halcyon.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/halvik.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/harmonia.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/honch.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/hyundai.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/i2.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/iconma.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ics.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/idhasoft.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ifca.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/inalab.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/indiabulls.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/infotech.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/infova.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/integrity.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/itc.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/itelligence.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/iti.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/kaar.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/knot.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/kyzen.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/larsen.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/lgs.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/liquidhub.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/loginsoft.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/lss.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/lt.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/luvina.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/med.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/medha.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/meteor.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/mindgrid.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/mindpetal.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/mobis.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/mori.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/navayuga.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ncr.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ncs.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/nelito.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/nga.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/nihilent.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/nissan.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/northgate.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/nquist.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ntrust.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/object.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/optimize.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/panasonic.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/people.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/pointwest.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/pricol.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/primesoft.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/prithvi.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/prodapt.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/prokhas.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/protech.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/qne.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/quest.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/radiant.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/radiss.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ray.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/reliance.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/reliancecommunications.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/rising.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/saahi.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/sbi.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/sci.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/sciit.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/scs.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/secon.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/sel.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/semanticbits.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/sierra.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/siliconnet.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/silver.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/softek.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/sps.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ssa.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/startech.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/sterlite.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/synergy.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/techflow.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/techno.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/tekskills.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/teledata.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/tinhvan.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/trillion.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ubt.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/value.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/verinon.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/vertex.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/virmati.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/vls.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/vsoft.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/wabtec.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/welcome.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/yash.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ybrant.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/ygi.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/yokogawa.png' %}" class="img-fluid" alt="Acuity"></div>
+                <div class="swiper-slide"><img src="{% static 'images/clients/zolontech.png' %}" class="img-fluid" alt="Acuity"></div>
+                <var></var>
+                <var></var>
+              </div>
+            </div>
+          </div>
+    
+        </section><!-- End clients Section -->
+
+    <!-- ======= Values Section ======= -->
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Our Values</h2>
+          <p>Values of CQAL!</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <img src="{% static 'images/images/values-1.png' %}" class="img-fluid" alt="">
+              <h3>Products For Project Excellence</h3>
+              <p style="color: #444444;">Our Products are designed and developed to assist organizations for managing projects & processes in an efficient and integrated way with the help of metrics & processes.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <img src="{% static 'images/images/values-2.png' %}" class="img-fluid" alt="">
+              <h3>PMP & Other Trainings</h3>
+              <p style="color: #444444;">CQAL is committed to bring variety of trainings to assist individuals, organizations.Our vision is to become the World's most comprehensive QA Services Provider.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+            <div class="box">
+              <img src="{% static 'images/images/values-3.png' %}" class="img-fluid" alt="">
+              <h3>CMMI Training & Appraisal</h3>
+              <p style="color: #444444;">CQAL's prime objective is to partner with your company to assist in CMMI and appraisals. CQAL's prime objective is to partner with your company to assist in CMMI and appraisals..</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Values Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Happy clients</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Appraisals</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-headset" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hours Of Support</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-people" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hard Workers</p>
+              </div> 
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Features</h2>
+          <p>Features of CQAL</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <img src="{% static 'images/images/features.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Brilliant Team Leaders.</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Qualified Lead Auditors.</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>24/7 Support.</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>To be defined.</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>To be defined.</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>To be defined.</h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div> <!-- / row -->
+
+
+
+        <!-- Staff & Other Services -->
+        <div class="row feature-icons" data-aos="fade-up">
+          <h3>Staff & Other Services</h3>
+          <p style="color: #444444;">CQAL offers SQA staffing services to assist organizations pursuing process improvements and implementing quality models. Our SQAs will be placed at client locations as per the requirements. The SQAs are expertise in the areas of :</p>
+
+          <div class="row">
+
+            <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+              <img src="{% static 'images/images/features-3.png' %}" class="img-fluid p-4" alt="">
+            </div>
+
+            <div class="col-xl-8 d-flex content">
+              <div class="row align-self-center gy-4">
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="ri-stack-line"></i>
+                  <div>
+                    <h4>Process Facilitation to Projects.</h4>
+                    <p>To be defined</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="ri-brush-4-line"></i>
+                  <div>
+                    <h4>Audits</h4>
+                    <p>To be defined</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="ri-magic-line"></i>
+                  <div>
+                    <h4>Process Trainigs to Practioners.</h4>
+                    <p>To be defined</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="ri-command-line"></i>
+                  <div>
+                    <h4>Knowledge Transition to Client Personnel.</h4>
+                    <p>To be defined</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                  <i class="ri-radar-line"></i>
+                  <div>
+                    <h4>Process Sustenance.</h4>
+                    <p>To be defined</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                  <i class="ri-line-chart-line"></i>
+                  <div>
+                    <h4>Process Formulation in Compliance with Quality Models & Standards.</h4>
+                    <p>To be defined</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div><!-- End Staff & Other Services -->
+
+      </div>
+
+    </section><!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Services</h2>
+          <p>Services providing by the CQAL</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box blue">
+              <h3>CMMI Services</h3>
+              <p style="color: #444444;">CMMI® model integrates Software, Systems, Integrated Process and Product development, Supplier Sources into a coherence model. The model’s version 1.1 is released in early 2001 by SEI and is being currently adopted by industry globally. The advantage of CMMI® over SW CMMI® for software industry is the present CMMI® model is also having improvements made over existing SW CMMI® version 1.1 (includes SW CMMI® draft 2.0).</p>
+              <a href="{% url 'cmmi' %}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-box orange">
+              <h3>ISO Services</h3>
+              <p style="color: #444444;">ISO (International Organization for Standardization) is an independent, non-governmental organization that develops standards to ensure the quality, safety and efficiency of products, services and systems.</p>
+              <a href="{% url 'iso' %}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box green">
+              <h3>AI&ML Services</h3>
+              <p style="color: #444444;">Artificial Intelligence and Machine Learning are the key game-changers in business. AI-based platforms are automating entire sales processes. AI is capable of transforming our lives and can build a better future. Our services of AI & ML can help you achieve high-end capabilities that enable building scalable and cost-effective solutions. Artificial Intelligence and Machine Learning lab would like to make computers learn so much about the world, as rapidly and flexibly, as humans.</p>
+              <a href="{% url 'ai' %}" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Services Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions</p>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <!-- F.A.Q List 1-->
+            <div class="accordion accordion-flush" id="faqlist1">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    What is CMMI®?
+                  </button>
+                </h2>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    CMMI® model integrates Software, Systems, Integrated Process and Product development, Supplier Sources into a coherence model. The model’s version 1.1 is released in early 2001 by SEI and is being currently adopted by industry globally. The advantage of CMMI® over SW CMMI® for software industry is the present CMMI® model is also having improvements made over existing SW CMMI® version 1.1 (includes SW CMMI® draft 2.0).
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    What is Six Sigma?
+                  </button>
+                </h2>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Six Sigma is a methodology, philosophy, model, approach and a tool for improvement the bottom-line in organizations using innovative breakthrough methodologies to solve problems, achieve goals, meet business objectives and to exceed customer satisfactions.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    Is there any certification with CMMI® ?
+                  </button>
+                </h2>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    There is no certification associated with CMMI® models. Certification word does not exists with respect to CMMI® models. CMMI® models are used by organizations to develop and improve processes and CMMI assessments / appraisals are performed to find the process improvement opportunities. Through formal assessments and appraisals, the appraisal teams can also rate an organization’s maturity, capability or capability maturity levels. The rating is a state of art reflection of processes but no way rating shall be treated as a certificate / certification.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+
+            <!-- F.A.Q List 2-->
+            <div class="accordion accordion-flush" id="faqlist2">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
+                    What are the benefits of going for CMMI® ?
+                  </button>
+                </h2>
+                <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Implementing a disciplined process in a organization improves the organization’s control over execution of projects, meet the stiff project deadlines and quality levels. CMMI® models assists organizations to develop and institutionalized efficient and effectives processes in organizations. A well interpreted, developed and properly followed process shall increase the ability to meet project goals and improve profitability.The benefits associated with CMMI® models are: Improvement in productivity, quality and increase in cycle time thus improving the customer satisfaction, meeting business objectives, improvement in business and growth. A well established CMMI®program acts as a catalytic business model for an organization.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
+                    Where can I get the models?
+                  </button>
+                </h2>
+                <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    CMMI® models can be freely downloaded from Software Engineering Institute’s website: www.sei.cmu.edu
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
+                    How shall we approach for CMMI model implementation?
+                  </button>
+                </h2>
+                <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    The approach is:<br>
+                    * Get CMMI models.<br>
+                    * Study the models & perform a mini assessment / appraisal to find the gaps in existing processes with respect to CMMI® model.<br>
+                    * Improve/develop processes to address the gaps.<br>
+                    * Provide necessary trainings on processes and related software / system engineering areas Institutionalize the process.<br>
+                    * After some time of implementation of processes, perform a appraisal to benchmark and to find continuous process improvements.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End F.A.Q Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="portfolio" class="portfolio">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Gallery</h2>
+          <p>Check our Gallery here</p>
+        </header>
+
+        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{% static 'images/gallery/Panasonic 02.JPG' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Panasonic</h4>
+                <p>1</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/gallery/Panasonic 02.JPG' %}" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{% static 'images/gallery/Point West Philippines.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Point West Philippines</h4>
+                <p>2</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/gallery/Point West Philippines.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{% static 'images/gallery/QNE-MALAYSIA.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>QNE-MALAYSIA</h4>
+                <p>3</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/gallery/QNE-MALAYSIA.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'images/gallery/QUEST RAIL USA.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>QUEST RAIL USA</h4>
+                <p>4</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/gallery/QUEST RAIL USA.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{% static 'images/gallery/Reliance - Mumbai.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Reliance - Mumbai</h4>
+                <p>5</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/gallery/Reliance - Mumbai.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{% static 'images/gallery/Reliance-Hyd.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Reliance-Hyd</h4>
+                <p>6</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/gallery/Reliance-Hyd.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'images/gallery/RNTBCI-CHENNAI.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>RNTBCI-CHENNAI</h4>
+                <p>7</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/gallery/RNTBCI-CHENNAI.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'images/gallery/SAAHI SYSTEMS _ IND.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>SAAHI SYSTEMS _ IND</h4>
+                <p>8</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/gallery/SAAHI SYSTEMS _ IND.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'images/gallery/SCIIT-IND.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>SCIIT-IND</h4>
+                <p>9</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/gallery/SCIIT-IND.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'images/gallery/Semanticbits-USA.JPG' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Semanticbits-USA</h4>
+                <p>10</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/gallery/Semanticbits-USA.JPG' %}" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'images/gallery/Yokogawa.JPG' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Yokogawa</h4>
+                <p>11</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/gallery/Yokogawa.JPG' %}" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{% static 'images/gallery/Trillion-USA.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Trillion-USA</h4>
+                <p>12</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'images/gallery/Trillion-USA.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <!-- <section id="testimonials" class="testimonials">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Testimonials</h2>
+          <p>What they are saying about us</p>
+        </header>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="{% static 'images/team/srinivassir.jpg" class="testimonial-img" alt="">
+                  <h3>Satish</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                </div>
+              </div>
+            </div> End testimonial item 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="{% static 'images/team/srinivassir.jpg" class="testimonial-img" alt="">
+                  <h3>Satish</h3>
+                  <h4>CEO &amp; Founder</h4>
+                </div>
+              </div>
+            </div>< End testimonial item>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="{% static 'images/team/srinivassir.jpg" class="testimonial-img" alt="">
+                  <h3>Satish</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                </div>
+              </div>
+            </div>< End testimonial item >
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="{% static 'images/team/srinivassir.jpg" class="testimonial-img" alt="">
+                  <h3>Satish</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                </div>
+              </div>
+            </div>< End testimonial item >
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="{% static 'images/team/srinivassir.jpg" class="testimonial-img" alt="srinivassir">
+                  <h3>Satish</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                </div>
+              </div>
+            </div>< End testimonial item 
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>-->
+
+      </div>
+
+    </section><!-- End Testimonials Section --><br>
+
+    <div class="container" data-aos="fade-up">
+      <header class="section-header">
+        <a href = "{% static 'Pdf/CQAL-BROCHURE(ISO).pdf' %}" target="_blank"><p>Click here to access our CQAL Brochure (ISO).</p></a>
+      </header>
+    </div>
+    <br>
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Team</h2>
+          <p>Our team</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'images/team/satishsir.jpg' %}" class="img-fluid" alt="satishsir">
+                <div class="social">
+                  <a href="https://www.facebook.com/satish.tumu" target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.linkedin.com/in/satish-kumar-tumu-97b1377/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Satish Kumar</h4>
+                <span>CEO & Lead Auditor.</span>
+                <p>Satish Kumar is the CEO & Lead Auditor with Concept QA Labs. He heads the CMMI practice at Concept QA Labs. He is a SEI Certified Lead Appraiser which empowers him to conduct third party SCAMPI Class A, Class B and Class C CMMI Appraisals.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'images/team/deviprasadsir.jpg' %}" class="img-fluid" alt="deviprasadsir">
+                <div class="social">
+                  <a href="https://www.facebook.com/deviprasad.thonda" target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.linkedin.com/in/devi-prasad-722b7210/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Devi Prasad</h4>
+                <span>ISO Lead Auditor</span>
+                <p>Devi Prasad is an IRCA certified ISO 9001:2015 lead auditor with a total of 10 years of experience in software development and quality assurance. During Devi Prasad's 5 years of lead auditor experience, he has performed more than 20 ISO 9001:2015 certification audits and more than 15 surveillance audits across the globe. In 2005-2007, Devi Prasad worked as a project leader and software developer on project management tool applications at Concept QA Labs. From 2007-2010, Devi Prasad worked as a quality assurance engineer providing IV&V and QA activities for software development and maintenance programs for Concept QA Labs clients. From 2010-2013, Devi Prasad worked as a quality manager at Concept QA Labs, independently managing consulting and training services in the Asia Pacific and USA regions. Since 2013, Devi Prasad has been working as an ISO lead auditor at Concept Quality Assurance Labs Pvt. Ltd., continuing to leverage his experience and expertise in the field of quality management.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'images/team/vijayagaru.jpg' %}" class="img-fluid" alt="srinivassir">
+                <div class="social">
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Vijaya Lakshmi</h4>
+                <span>Senior Consultant</span>
+                <p>Vijaya is a highly qualified professional with a wealth of experience in Project Management and Process Quality. They are a Certified ISO 9001:2015 Lead Auditor and a CMMI Institute Certified Appraisal Team Member (CMMI V2.0 DEV +SVC). With over 14 years of experience, they have consulted on CMMI-DEV and CMMI-SVC for more than 35 customers across the globe and participated as an Appraisal Team Member in over 11 Benchmark Appraisals. Their areas of expertise include CMMI Frameworks, Project Management, and Quality Management, as well as Process Management, Quality Assurance, CMMI Consulting, Training, and Implementation.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Team Section -->
+
+    <!-- ======= Posts Section ======= -->
+    <section id="recent-blog-posts" class="recent-blog-posts">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Updates</h2>
+          <p>Recent Posts from CQAL</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img"><img src="{% static 'images/post/service1.jpg' %}" class="img-fluid" alt=""></div>
+              <span class="post-date">Wed, March 1</span>
+              <h3 class="post-title">Authorized Introduction to CMMI Training for Development & Services, Version 2.0 :</h3>
+              <a href="{% url 'update1' %}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img"><img src="{% static 'images/post/service2.jpg' %}" class="img-fluid" alt=""></div>
+              <span class="post-date">Wed, March 1</span>
+              <h3 class="post-title">Virtual Training And Appraisal Delivery :</h3>
+              <a href="{% url 'update2' %}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="post-box">
+              <div class="post-img"><img src="{% static 'images/post/service3.jpg' %}" class="img-fluid" alt=""></div>
+              <span class="post-date">Wed, March 1</span>
+              <h3 class="post-title">CMMI Institute’s Official Introduction to CMMI v2.0</h3>
+              <a href="{% url 'update3' %}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- Posts Section -->
+
+    <!-- Careers Section -->
+    <section id="careers" data-aos="fade-up">
+      <div class="container">
+        <h2 style="color: #012970;">We're Hiring!</h2><br>
+        <h3 style="color: #012970">Be part of our mission.</h3><br>
+        <h5 style="color: #012970">We're looking for passionate people to join us on our mission.</h5><br>
+        <h5 style="color: #012970;">Check out the open roles below & Email us at <span style="color: #5DADE2;">careers@conceptqalabs.com</span> with your latest resume.</h5><hr> 
+      </div>
+      <div class="container">
+        <h3 class="header" style="color: #012970">Open Roles for CMMI Consulting & Product Development.</h3><br><br><br>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td class="role" style="color: #012970">CMMI Trainers for V2.0 Dev and Services</td>
+              <td>Remote / Office</td>
+              <td><a href="mailto:careers@conceptqalabs.com" style="text-decoration: none;color: #012970">Apply</a></td>
+            </tr>
+            <tr>
+              <td class="role" style="color: #012970">ISO Consultants</td>
+              <td>Remote / Office</td>
+              <td><a href="mailto:careers@conceptqalabs.com" style="text-decoration: none;color: #012970">Apply</a></td>
+            </tr>
+            <tr>
+              <td class="role" style="color: #012970">ISO certified Lead Auditors</td>
+              <td>Remote / Office</td>
+              <td><a href="mailto:careers@conceptqalabs.com" style="text-decoration: none;color: #012970">Apply</a></td>
+            </tr>
+            <tr>
+              <td class="role" style="color: #012970">Btech Grads in CSE</td>
+              <td>Remote / Office</td>
+              <td><a href="mailto:careers@conceptqalabs.com" style="text-decoration: none;color: #012970">Apply</a></td>
+            </tr>
+            <tr>
+              <td class="role" style="color: #012970">Product Manager</td>
+              <td>Remote / Office</td>
+              <td><a href="mailto:careers@conceptqalabs.com" style="text-decoration: none;color: #012970">Apply</a></td>
+            </tr>
+            <tr>
+              <td class="role" style="color: #012970"> Data Engineers</td>
+              <td>Remote / Office</td>
+              <td><a href="mailto:careers@conceptqalabs.com" style="text-decoration: none;color: #012970">Apply</a></td>
+            </tr>
+            <tr>
+              <td class="role" style="color: #012970">BI Analysts</td>
+              <td>Remote / Office</td>
+              <td><a href="mailto:careers@conceptqalabs.com" style="text-decoration: none;color: #012970">Apply</a></td>
+            </tr>
+            <tr>
+              <td class="role" style="color: #012970">Software Engineers – Full Stack</td>
+              <td>Remote / Office</td>
+              <td><a href="mailto:careers@conceptqalabs.com" style="text-decoration: none;color: #012970">Apply</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <p style="text-align: center;color: #444444;">Sorry, we are not allowing work from home at this time.</p>
+      </div>
+    </section><!-- Careers Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-12">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p style="color: #444444">Concepts QA Labs, Inc.<br>
+                    Plot # 36, Srinivas Nagar Colony, ECIL Post, Hyderabad,<br>
+                    Telangana. INDIA-500 062</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p style="color: #444444">+ 1 703 953 1680</p>
+                  <p style="color: #444444">+ 91 9848013691</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p style="color: #444444">You can contact us through this E-mail ! </p>
+                  <p><a href = "mailto:satish@conceptqalabs.com">satish@conceptqalabs.com</a></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Business Hours</h3>
+                  <p style="color: #444444">Monday - Friday<br>9:30AM - 06:00PM</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="{% url 'index' %}" class="logo d-flex align-items-center">
+              <span>Concept QA Labs</span>
+            </a><br>
+            <p style="color: #444444;">CQAL is engaged by global industries for state of art services in the areas of CMMI®,Project Management, Six Sigma and Software Engineering domains.Concept Quality Assurance Labs (CQAL) is established in the year 2004 with an objective of assisting worldwide industry towards scaling to process excellence by professionals having worked in significant roles in Quality management with some of the biggest Fortune500 companies.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/conceptqalabs" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/concept-qa-labs-pvt-ltd/about/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-12 footer-contact text-center text-md-start">
+            <h3><img src="{% static 'images/flags/ind.jpg' %}"> <span class="flags">INDIA</span></h3><br>
+            <h6 class="text">Concept QA Labs Pvt.Ltd</h6>
+            <h6 class="text">Plot # 36, Srinivas Nagar Colony,</h6>
+            <h6 class="text">ECIL Post, Hyderabad,</h6><br>
+            <h6 class="text">Tel : +91 40 4004 0757</h6>
+            <h6 class="text">Tel : +91 40 4004 0756</h6>
+
+          </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <div class="col-lg-2 col-md-12 footer-contact text-center text-md-start">
+            <h3><img src="{% static 'images/flags/usa.jpg' %}"> <span class="flags">USA</span></h3><br>
+            <h6 class="text">Concepts QA Labs, Inc.</h6>
+            <h6 class="text">#8170 Lark Brown Rd, Ste 202, MD 21075.</h6>
+            <h6 class="text">Elkridge, USA</h6><br>
+            <h6 class="text">Tel : +91 40 4004 0757</h6>
+            <h6 class="text">Tel : +91 40 4004 0756</h6>
+
+          </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <div class="col-lg-2 col-md-12 footer-contact text-center text-md-start">
+            <h3><img src="{% static 'images/flags/usa.jpg' %}"> <span class="flags">USA</span></h3><br>
+            <h6 class="text">Concepts QA Labs, Inc.</h6>
+            <h6 class="text">3943 SIENNA DR STRELING HEIGHTS,</h6>
+            <h6 class="text">MI 48314-2647, USA</h6><br>
+            <h6 class="text">Tel : +91 40 4004 0757</h6>
+            <h6 class="text">Tel : +91 40 4004 0756</h6>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright 2024, <strong><span>Concept Quality Assurance Labs.</span></strong>. All Rights Reserved
+      </div>
+      <!-- <div class="copyright">
+        SEISM, CMMI�, Capability Maturity Model IntegrationSM, SEPGSM, PSPSM, SCAMPISM and TSPSM are service marks of Carnegie Mellon University. CMM� and Capability Maturity Model are registered in the US Patent and Trademark office. ITIL� is a Registered Trade Mark and a Registered Community Trade Mark of the Office of Government Commerce and is Registered in the U.S. Patent and Trademark OfficeSM.
+      </div> -->
+      
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+{% endblock content %}

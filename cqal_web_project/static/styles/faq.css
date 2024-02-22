@@ -1,0 +1,101 @@
+.section-title{
+    padding: 10px 7rem;
+}
+.section-title h1{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.63rem;
+    line-height: 26px;
+    color: #3498DB;
+}
+.tab-container{
+    padding: 20px 7rem;
+}
+
+/* Tab Accordian */
+
+h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 20px;
+    color: #5D6D7E;
+    margin: 0;
+}
+h3:hover{
+  color: #3498DB;
+}
+p{
+    font-weight: 400;
+    font-size: .88rem;
+    line-height: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.tab-accordian{
+    width: 100%;
+    border-radius: 18px;
+    border: 1px solid #5D6D7E;
+    background: transparent;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.titleWrapper{
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    -webkit-user-select: none;
+    user-select: none;
+    transition: background-color .8s linear;
+}
+/* .titleWrapper.active{
+    background: #fff;
+} */
+.desWrapper{
+    background: #3498DB;
+    max-height: 500px;
+    display: none;
+    padding: 20px;
+    transition: max-height 1s ease-in;
+    color: white;
+}
+
+/* Collapse Icon */
+
+.collapse-icon{
+    position: relative;
+}
+.collapse-icon .acc-close{
+    height: 20px;
+    border-left: 2px solid #3498DB;
+    transition: all .5s ease-in-out;
+    transform: rotate(-90deg);
+    opacity: 1;
+}
+
+.collapse-icon .acc-open {
+	width: 19px;
+	position: absolute;
+	border-top: 2px solid #3498DB;
+	transition: all .5s ease-in-out;
+	transform: rotate(90deg);
+	top: 43%;
+	right: -8px;
+}
+
+.titleWrapper.active .collapse-icon{
+    transition: all .5s ease-in-out;
+	transform: rotate(180deg);
+}
+
+.titleWrapper.inactive .collapse-icon{
+    transition: all .5s ease-in-out;
+	transform: rotate(-180deg);
+}
+
+.titleWrapper.active .collapse-icon .acc-open{ 
+    opacity: 0;
+}

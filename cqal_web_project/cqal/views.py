@@ -1,5 +1,8 @@
 from django.shortcuts import render, redirect
 from .models import Update1, Update2, Update3
+from django.conf import settings
+import os
+from .forms import CertificateSearchForm
 
 # Create your views here.
 
@@ -39,9 +42,6 @@ def iso27001(request):
 def iso20000(request):
     return render(request, 'cqal/iso20000.html')
     
-def directory(request):
-    return render(request, 'cqal/directory.html')
-    
 def Accrediatations(request):
     return render(request, 'cqal/accrediatations.html')
     
@@ -59,5 +59,27 @@ def update_3(request):
     update3 = Update3.objects.all()
     context = {'info3': update3}
     return render(request, 'cqal/update3.html', context)
+
+
+def directory(request):
+    form = CertificateSearchForm()
+    certificate_image = None
+    error_message = None  # Add an error message variable
+    
+    if request.method == 'POST':
+        form = CertificateSearchForm(request.POST)
+        if form.is_valid():
+            category = form.cleaned_data['category']
+            certificate_id = form.cleaned_data['certificate_id']
+            folder_name = category
+            certificate_path = os.path.join(settings.MEDIA_ROOT, folder_name, f"{certificate_id}.jpg")
+
+            if os.path.exists(certificate_path):
+                certificate_image = os.path.join(settings.MEDIA_URL, folder_name, f"{certificate_id}.jpg")
+            else:
+                error_message = 'Certificate not found. Please check your details and try again.'
+
+    return render(request, 'cqal/directory.html', {'form': form, 'certificate_image': certificate_image, 'error_message': error_message})
+
     
     

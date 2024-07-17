@@ -77,7 +77,7 @@ def directory(request):
             if os.path.exists(certificate_path):
                 certificate_image = os.path.join(settings.MEDIA_URL, folder_name, f"{certificate_id}.jpg")
             else:
-                error_message = 'Certificate not found. Please check your details and try again.'
+                error_message = 'Certificate not found. Please contact info@conceptqalabs.com'
 
     return render(request, 'cqal/directory.html', {'form': form, 'certificate_image': certificate_image, 'error_message': error_message})
 

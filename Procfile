@@ -1,1 +1,0 @@
-web: gunicorn cqal_web_project.wsgi

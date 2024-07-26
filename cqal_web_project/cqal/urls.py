@@ -14,6 +14,7 @@ urlpatterns = [
     path('iso9001/', views.iso9001, name="iso9001"),
     path('iso27001/', views.iso27001, name="iso27001"),
     path('iso20000/', views.iso20000, name="iso20000"),
+    path('iso14001/', views.iso14001, name="iso14001"),
     path('directory/', views.directory, name="directory"),
     path('accrediatations/', views.Accrediatations, name="accrediatations"),
     path('update1/', views.update_1, name="update1"),

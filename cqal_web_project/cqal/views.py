@@ -41,6 +41,9 @@ def iso27001(request):
 
 def iso20000(request):
     return render(request, 'cqal/iso20000.html')
+
+def iso14001(request):
+    return render(request, 'cqal/iso14001.html')
     
 def Accrediatations(request):
     return render(request, 'cqal/accrediatations.html')

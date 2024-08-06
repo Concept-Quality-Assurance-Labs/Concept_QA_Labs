@@ -6,10 +6,18 @@ from .forms import CertificateSearchForm
 
 # Create your views here.
 
+# Define the index view function
 def index(request):
+    """
+    Handles the request for the index page and renders the 'cqal/index.html' template.
+    """
     return render(request, 'cqal/index.html')
 
+# Define the Knowmore view function
 def Knowmore(request):
+    """
+    Handles the request for the Knowmore page and renders the 'cqal/knowmore.html' template.
+    """
     return render(request, 'cqal/knowmore.html')
 
 def cmmi(request):
